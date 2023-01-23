@@ -17,7 +17,7 @@ export default class App extends Component {
   
   pageSize = 15;
   // apiKey= process.env.REACT_APP_NEWS_API 
-  apiKey= "1a09f2025e6f4a13add19add84f56e26" 
+  apiKey= " " 
 
   state = {
     progress: 0
@@ -64,7 +64,3 @@ export default class App extends Component {
 
 
 
-//API key 1:  1a09f2025e6f4a13add19add84f56e26  
-//API key 2:  c8f4ed3c3c7142f19bb8a2481fa6b910
-//API key 3:  1a09f2025e6f4a13add19add84f56e26
-//json: https://newsapi.org/v2/top-headlines?country=us&apiKey=1a09f2025e6f4a13add19add84f56e26
